@@ -127,6 +127,7 @@
 .header__address {
   position: relative;
   left: 80px;
+  top: 40px;
 }
 
 .recipes {
