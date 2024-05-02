@@ -68,7 +68,6 @@
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
-  /*border: #2f80ed 5px solid;*/
 }
 
 .span-accent {
@@ -94,7 +93,6 @@
 .header__image {
   width: 646px;
   height: 568px;
-  /*border: #2f80ed 5px solid;*/
   position: absolute;
   top: 124px;
   right: 5px;
@@ -149,9 +147,6 @@
   max-width: 580px;
   margin-left: 80px;
   margin-top: 100px;
-  /*position: relative;*/
-  /*left: 80px;*/
-  /*top: 100px;*/
 }
 
 .recipes__subtitle {
@@ -163,10 +158,6 @@
   max-width: 438px;
   margin-top: 24px;
   margin-left: 80px;
-  /*padding-top: 24px;*/
-  /*position: relative;*/
-  /*top: 88px;*/
-  /*left: 80px;*/
 }
 
 .recipes__videos {
@@ -186,4 +177,87 @@
   width: 480px;
   height: 273px;
   row-gap: 40px;
+}
+
+.reservation {
+  background-image: url("../images/background_reservation.svg");
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.reservation__form {
+  padding-top: 80px;
+  max-width: 385px;
+  width: 100%;
+  padding-bottom: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__fieldset {
+  box-sizing: border-box;
+  max-width: 385px;
+  width: 100%;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+  display: block;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 4px;
+  max-width: 385px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+}
+
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 385px;
+  width: 100%;
+  height: 60px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  border-radius: 2px;
 }
