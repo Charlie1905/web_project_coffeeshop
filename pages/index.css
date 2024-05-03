@@ -194,7 +194,7 @@
   font-size: 44px;
   line-height: 52px;
   display: flex;
-  margin: 0 auto;
+  margin: auto;
   /*padding-top: 100px;*/
   justify-content: center;
   position: relative;
