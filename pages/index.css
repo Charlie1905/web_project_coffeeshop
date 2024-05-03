@@ -194,8 +194,11 @@
   font-size: 44px;
   line-height: 52px;
   display: flex;
-  padding-top: 100px;
+  margin: 0 auto;
+  /*padding-top: 100px;*/
   justify-content: center;
+  position: relative;
+  top: 100px;
 }
 
 .reservation__form {
@@ -203,7 +206,7 @@
 }
 
 .form {
-  padding-top: 80px;
+  padding-top: 180px;
   max-width: 385px;
   width: 100%;
   padding-bottom: 120px;
@@ -218,6 +221,8 @@
   box-sizing: border-box;
   max-width: 385px;
   width: 100%;
+  border: 0px;
+  box-shadow: none;
 }
 
 .form__label {
@@ -264,4 +269,11 @@
 
 .form__checkbox {
   border-radius: 2px;
+}
+
+.alineacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
 }

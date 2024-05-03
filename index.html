@@ -116,7 +116,7 @@
           </ul>
         </section>
         <section class="reservation" id="reservation">
-          <h1 class="reservation__title">Reservar una mesa</h1>
+          <p class="reservation__title">Reservar una mesa</p>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label for="text" class="form__label">Nombre *</label>
@@ -160,15 +160,17 @@
               <button type="submit" class="form__button">
                 Reservar una mesa
               </button>
-              <input
-                type="checkbox"
-                name="terms&references"
-                id="terms"
-                value="terms"
-                class="form__checkbox"
-              />
-              <label for="terms" class="form__label"
-                >Acepto los términos de uso</label
+              <label class="alineacion"
+                ><input
+                  type="checkbox"
+                  name="terms&references"
+                  id="terms"
+                  value="terms"
+                  class="form__checkbox"
+                />
+                <label for="terms" class="form__label"
+                  >Acepto los términos de uso</label
+                ></label
               >
             </fieldset>
           </form>
