@@ -79,3 +79,13 @@
   left: 80px;
   top: 40px;
 }
+
+.span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
